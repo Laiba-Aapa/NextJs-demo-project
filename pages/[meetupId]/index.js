@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{Fragment} from 'react'
 import { MongoClient, ObjectId } from 'mongodb';
 import MeetupDetail from '@/components/meetups/MeetupDetail'
 function MeetupDetails(props) {
